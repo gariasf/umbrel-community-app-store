@@ -1,0 +1,22 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: guillem-amule_amule_1
+      APP_PORT: 4711
+  amule:
+    image: ngosang/amule:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - WEBUI_PWD=${APP_PASSWORD}
+      - GUI_PWD=${APP_PASSWORD}
+    volumes:
+      - ${APP_DATA_DIR}/config:/home/amule/.aMule
+      - ${UMBREL_ROOT}/home/Downloads/emule:/downloads
+    ports:
+      - "4662:4662"
+      - "4665:4665/udp"
+      - "4672:4672/udp"
