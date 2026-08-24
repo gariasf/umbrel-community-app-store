@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: guillem-amule
+name: aMule
+tagline: eD2k and Kad client
+icon: https://svgur.com/i/mvA.svg
+category: files
+version: "2.3.3"
+port: 4711
+description: >-
+  Headless aMule with web interface, for the eD2k and Kad networks.
+developer: aMule Project
+website: https://amule.org
+submitter: Guillem
+submission: https://github.com/gariasf/umbrel-community-app-store
+repo: https://github.com/amule-project/amule
+support: https://forum.amule.org
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+deterministicPassword: true
+defaultUsername: admin
