@@ -1,0 +1,27 @@
+manifestVersion: 2.0
+id: guillem-moments
+name: Moments
+tagline: Keep the parts of videos you love, and loop them
+category: media
+version: "0.1.0"
+port: 3780
+description: >-
+  Mark the start and end of a stretch of any video in Home, such as a movie or a
+  MeTube download, and keep it as its own video in Home/Moments, to replay on loop.
+  Moments reads all of Home and changes nothing in it except Downloads/metube
+  and Moments.
+developer: Guillem
+website: https://github.com/gariasf/moments
+submitter: Guillem
+submission: https://github.com/gariasf/umbrel-community-app-store
+repo: https://github.com/gariasf/moments
+support: https://github.com/gariasf/moments/issues
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+permissions:
+  - GPU
+backupIgnore:
+  - data/uploads
+  - data/cache

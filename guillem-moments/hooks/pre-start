@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Docker would make a missing bind-mount folder owned by root, so the Moments
+# folder is made first, owned by Files' user like the rest of Home.
+moments="${UMBREL_ROOT}/home/Moments"
+[[ -d "${moments}" ]] || install -d -o 1000 -g 1000 "${moments}"

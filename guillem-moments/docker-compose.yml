@@ -1,0 +1,21 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: guillem-moments_server_1
+      APP_PORT: 8080
+
+  server:
+    image: ghcr.io/gariasf/moments:0.1.0@sha256:e613dfdc9b30cc9c49d37a64691975e76d05eb125c85d20c6107acc9c95eed38
+    restart: on-failure
+    user: "1000:1000"
+    environment:
+      MOMENTS_HOME: /home
+      MOMENTS_DATA: /data
+    volumes:
+      # All of Home read-only, with MeTube's downloads and the Moments folder
+      # writable on top. hooks/pre-start makes the Moments folder.
+      - ${UMBREL_ROOT}/home:/home:ro
+      - ${UMBREL_ROOT}/home/Downloads/metube:/home/Downloads/metube
+      - ${UMBREL_ROOT}/home/Moments:/home/Moments
+      # Uploads, saves.json and the cache.
+      - ${APP_DATA_DIR}/data:/data
