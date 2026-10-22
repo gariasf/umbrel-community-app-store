@@ -3,7 +3,7 @@ id: guillem-moments
 name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
-version: "0.1.0"
+version: "0.2.0"
 port: 3780
 description: >-
   Mark the start and end of a stretch of any video in Home, such as a movie or a
@@ -17,7 +17,10 @@ submission: https://github.com/gariasf/umbrel-community-app-store
 repo: https://github.com/gariasf/moments
 support: https://github.com/gariasf/moments/issues
 gallery: []
-releaseNotes: ""
+releaseNotes: >-
+  Picking a video in the Trimmer's Source browser now plays it from its start.
+  H.264 video with AAC audio plays; other codecs get a message naming them,
+  until later releases.
 dependencies: []
 path: ""
 permissions:
