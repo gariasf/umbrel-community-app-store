@@ -11,11 +11,11 @@ description: >-
   Moments reads all of Home and changes nothing in it except Downloads/metube
   and Moments.
 developer: Guillem
-website: https://github.com/gariasf/moments
+website: https://github.com/gariasf/moments-app
 submitter: Guillem
 submission: https://github.com/gariasf/umbrel-community-app-store
-repo: https://github.com/gariasf/moments
-support: https://github.com/gariasf/moments/issues
+repo: https://github.com/gariasf/moments-app
+support: https://github.com/gariasf/moments-app
 gallery: []
 releaseNotes: >-
   Picking a video in the Trimmer's Source browser now plays it from its start.
