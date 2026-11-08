@@ -4,7 +4,7 @@ name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
 icon: https://cdn.jsdelivr.net/gh/gariasf/umbrel-community-app-store@d3f999915af298c57b6dc7c3172d49623d859758/guillem-moments/icon.svg
-version: "0.3.0"
+version: "0.4.0"
 port: 3780
 description: >-
   Mark the start and end of a stretch of any video in Home, such as a movie or a
@@ -19,12 +19,9 @@ repo: https://github.com/gariasf/moments-app
 support: https://github.com/gariasf/moments-app
 gallery: []
 releaseNotes: >-
-  Mark a Moment in the Trimmer with I and O while watching, fine-tune its start
-  and end as it loops, pick its audio track, and save it into Home/Moments.
-  Saves show their progress, carry on after a restart, and say why one failed,
-  with Retry and Dismiss. Video or audio that Safari or Chrome can't play is
-  converted as it saves, video on the GPU. The Library lists your Moments,
-  newest first, with their posters.
+  Tap a Moment in the Library to play it full-window on loop, with sound. The
+  title shows as it starts, then fades; mute, full screen and close sit in the
+  corner, and Esc closes it too.
 dependencies: []
 path: ""
 permissions:
