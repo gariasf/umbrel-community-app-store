@@ -3,7 +3,7 @@ id: guillem-moments
 name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
-version: "0.2.0"
+version: "0.3.0"
 port: 3780
 description: >-
   Mark the start and end of a stretch of any video in Home, such as a movie or a
@@ -18,9 +18,12 @@ repo: https://github.com/gariasf/moments-app
 support: https://github.com/gariasf/moments-app
 gallery: []
 releaseNotes: >-
-  Picking a video in the Trimmer's Source browser now plays it from its start.
-  H.264 video with AAC audio plays; other codecs get a message naming them,
-  until later releases.
+  Mark a Moment in the Trimmer with I and O while watching, fine-tune its start
+  and end as it loops, pick its audio track, and save it into Home/Moments.
+  Saves show their progress, carry on after a restart, and say why one failed,
+  with Retry and Dismiss. Video or audio that Safari or Chrome can't play is
+  converted as it saves, video on the GPU. The Library lists your Moments,
+  newest first, with their posters.
 dependencies: []
 path: ""
 permissions:
