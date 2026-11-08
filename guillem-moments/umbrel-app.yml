@@ -3,6 +3,7 @@ id: guillem-moments
 name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
+icon: https://cdn.jsdelivr.net/gh/gariasf/umbrel-community-app-store@d3f999915af298c57b6dc7c3172d49623d859758/guillem-moments/icon.svg
 version: "0.3.0"
 port: 3780
 description: >-
