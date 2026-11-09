@@ -4,11 +4,11 @@ name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
 icon: https://cdn.jsdelivr.net/gh/gariasf/umbrel-community-app-store@d3f999915af298c57b6dc7c3172d49623d859758/guillem-moments/icon.svg
-version: "0.4.0"
+version: "0.5.0"
 port: 3780
 description: >-
   Mark the start and end of a stretch of any video in Home, such as a movie or a
-  MeTube download, and keep it as its own video in Home/Moments, to replay on loop.
+  MeTube download, or of one you upload, and keep it as its own video in Home/Moments, to replay on loop.
   Moments reads all of Home and changes nothing in it except Downloads/metube
   and Moments.
 developer: Guillem
@@ -19,9 +19,10 @@ repo: https://github.com/gariasf/moments-app
 support: https://github.com/gariasf/moments-app
 gallery: []
 releaseNotes: >-
-  Tap a Moment in the Library to play it full-window on loop, with sound. The
-  title shows as it starts, then fades; mute, full screen and close sit in the
-  corner, and Esc closes it too.
+  Upload a video from your Mac in the Trimmer and trim it from Uploads. Rename,
+  download and delete Moments from their menu, line several up in a Queue that
+  plays on loop, and see Saves on their way at the top of the Library. Done on
+  an upload or a MeTube download can delete it once you're finished with it.
 dependencies: []
 path: ""
 permissions:
