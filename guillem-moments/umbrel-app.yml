@@ -4,7 +4,7 @@ name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
 icon: https://cdn.jsdelivr.net/gh/gariasf/umbrel-community-app-store@d3f999915af298c57b6dc7c3172d49623d859758/guillem-moments/icon.svg
-version: "0.6.0"
+version: "0.7.0"
 port: 3780
 description: >-
   Mark the start and end of a stretch of any video in Home, such as a movie or a
@@ -19,9 +19,8 @@ repo: https://github.com/gariasf/moments-app
 support: https://github.com/gariasf/moments-app
 gallery: []
 releaseNotes: >-
-  Moments has its own icon, in the browser tab and on an iPhone home-screen
-  shortcut, and each tab names the screen in view: the Library, a Moment, or
-  the Source you're trimming.
+  New type: text in Nunito Sans and headings in Young Serif, bundled with the
+  app.
 dependencies: []
 path: ""
 permissions:
