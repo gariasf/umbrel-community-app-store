@@ -4,7 +4,7 @@ name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
 icon: https://cdn.jsdelivr.net/gh/gariasf/umbrel-community-app-store@d3f999915af298c57b6dc7c3172d49623d859758/guillem-moments/icon.svg
-version: "0.5.0"
+version: "0.6.0"
 port: 3780
 description: >-
   Mark the start and end of a stretch of any video in Home, such as a movie or a
@@ -19,10 +19,9 @@ repo: https://github.com/gariasf/moments-app
 support: https://github.com/gariasf/moments-app
 gallery: []
 releaseNotes: >-
-  Upload a video from your Mac in the Trimmer and trim it from Uploads. Rename,
-  download and delete Moments from their menu, line several up in a Queue that
-  plays on loop, and see Saves on their way at the top of the Library. Done on
-  an upload or a MeTube download can delete it once you're finished with it.
+  Moments has its own icon, in the browser tab and on an iPhone home-screen
+  shortcut, and each tab names the screen in view: the Library, a Moment, or
+  the Source you're trimming.
 dependencies: []
 path: ""
 permissions:

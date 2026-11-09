@@ -5,7 +5,7 @@ services:
       APP_PORT: 8080
 
   server:
-    image: ghcr.io/gariasf/moments:0.5.0@sha256:fb96775d8d8f756e701cca7a9621936b651640e8a870f0774c52e420e84c94fd
+    image: ghcr.io/gariasf/moments:0.6.0@sha256:f43572619327414faefba27c7e46e17d647d34fa9ed43101f0546c6655c4804c
     restart: on-failure
     user: "1000:1000"
     environment:
