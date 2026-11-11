@@ -4,7 +4,7 @@ name: Moments
 tagline: Keep the parts of videos you love, and loop them
 category: media
 icon: https://cdn.jsdelivr.net/gh/gariasf/umbrel-community-app-store@d3f999915af298c57b6dc7c3172d49623d859758/guillem-moments/icon.svg
-version: "0.8.0"
+version: "0.9.0"
 port: 3780
 description: >-
   Mark the start and end of a stretch of any video in Home, such as a movie or a
@@ -19,11 +19,10 @@ repo: https://github.com/gariasf/moments-app
 support: https://github.com/gariasf/moments-app
 gallery: []
 releaseNotes: >-
-  Moments has a sidebar on every screen, with the Library, the Trimmer, your
-  Sources and the Queue. The Library is a grid, and a Moment plays beside the
-  Queue. The Trimmer keeps the Source list beside the video playing and gathers
-  its controls into one panel. Drop a video on the Source list to upload it,
-  and follow the upload at the foot of the sidebar, where you can cancel it.
+  In the Trimmer, clear one edge or both from the panel, and type an edge's
+  time. The Source's video fits inside the window. The address keeps the
+  screen and the Moment playing, so a reload or Back returns to them. Digits
+  in titles, such as episode codes, read as digits.
 dependencies: []
 path: ""
 permissions:
